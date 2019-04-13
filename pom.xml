@@ -83,6 +83,7 @@
         <version.asm>6.0</version.asm>
         <version.jtwig>5.87.0.RELEASE</version.jtwig>
         <version.jacoco>0.8.2</version.jacoco>
+        <version.springfox>2.9.2</version.springfox>
         <!-- Version properties. -->
 
         <surefireArgLine/>
@@ -301,7 +302,7 @@
                 <plugin>
                     <groupId>org.codehaus.gmavenplus</groupId>
                     <artifactId>gmavenplus-plugin</artifactId>
-                    <version>1.5</version>
+                    <version>1.6</version>
                 </plugin>
                 <plugin>
                     <groupId>org.codehaus.mojo</groupId>
@@ -317,7 +318,7 @@
                 <plugin>
                     <groupId>org.jsonschema2pojo</groupId>
                     <artifactId>jsonschema2pojo-maven-plugin</artifactId>
-                    <version>0.5.1</version>
+                    <version>1.0.0</version>
                 </plugin>
                 <plugin>
                     <groupId>org.antlr</groupId>
@@ -1198,6 +1199,16 @@
                 <groupId>org.awaitility</groupId>
                 <artifactId>awaitility</artifactId>
                 <version>${version.awaitility}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger2</artifactId>
+                <version>${version.springfox}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger-ui</artifactId>
+                <version>${version.springfox}</version>
             </dependency>
 
             <dependency>
