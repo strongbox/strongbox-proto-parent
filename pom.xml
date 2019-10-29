@@ -66,7 +66,7 @@
         <version.lucene>4.8.1</version.lucene>
         <version.logback>1.2.3</version.logback>
         <version.maven>3.3.9</version.maven>
-        <version.mockito>2.22.0</version.mockito>
+        <version.mockito>3.1.0</version.mockito>
         <version.orientdb>3.0.0</version.orientdb>
         <version.quartz>2.3.0</version.quartz>
         <version.servlet.api>3.1.0</version.servlet.api>
