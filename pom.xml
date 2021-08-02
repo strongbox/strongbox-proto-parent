@@ -47,7 +47,7 @@
         <!-- Version properties: -->
 
         <version.apache.directory>1.5.5</version.apache.directory>
-        <version.apache.commons.compress>1.19</version.apache.commons.compress>
+        <version.apache.commons.compress>1.21</version.apache.commons.compress>
         <version.appassembler>2.0.0</version.appassembler>
         <version.groovy>2.4.7</version.groovy>
         <version.guava>27.0.1-jre</version.guava>
